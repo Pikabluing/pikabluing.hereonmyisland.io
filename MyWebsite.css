@@ -1,0 +1,139 @@
+body {
+	background-color:#befafc;
+	color:#0672ca;
+	font-family:Baskerville,serif;
+	font-size:24px
+}
+
+
+h1 {
+	color:#ef56c5;
+	font-size:60px;
+	font-family:Luminari,fantasy;
+	margin:5px;
+}
+h2 {
+	color:#bd46a5;
+	font-size:24px;
+	font-family:Georgia,serif;
+	margin:5px;
+}
+h3 {
+	color:#25a196;
+	font-size:42px;
+	font-family:Luminari,fantasy;
+	margin:10px
+}
+h4 {
+	color:#25a196;
+	font-size:32px;
+	font-family:Luminari,fantasy;
+	margin:10px
+}
+p {
+	font-size:20px;
+	margin:10px;
+}
+
+header {
+	background-color:#feeaff;
+	padding:5px;
+	text-align:center;
+}
+
+ul.topnav {
+	position:sticky;
+	display:flex;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:ef56c5;
+}
+ul.topnav li a {
+	display:block;
+	color:#feeaff;
+	padding:14px 16px;
+	text-decoration:none;
+}
+ul.topnav li a:hover {
+	background-color:#feeaff;
+	color:#ef56c5;
+}
+
+img {
+	opacity:1;
+}
+img:hover {
+	opacity:0.6;
+}
+
+.row {
+	content:""
+	clear:both;
+	display:flex;
+	justify-content:center;
+}
+
+div#flex-container {
+	display:flex;
+	flex-direction:row;
+}
+div#flex-container > div {
+	margin:20px
+}
+
+.sides {
+	background-color:#feeaff;
+	border-radius:10px;
+	background-clip:padding-box;
+	width:600px
+}
+
+.center {
+	background-color:#feeaff;
+	border-radius:10px;
+	background-clip:padding-box;
+	width:1000px;
+}
+
+.song {
+	background-color:#0672ca;
+	border-radius:10px;
+	background-clip:padding-box;
+	color:#befafc;
+}
+
+.song-lyrics {
+	background-color:#0672ca;
+	border-radius:10px;
+	background-clip:padding-box;
+	color:#befafc;
+	height:500px;
+	overflow:scroll;
+}
+
+footer {
+	background-color: #69ddd3;
+	padding: 5px;
+	text-align:center;
+	clear:both;
+}
+
+.button {
+	background-color:#0672ca;
+	padding:5px;
+	color:#ffffff;
+	text-align:center;
+	font-size:18px;
+	margin:5px;
+	border:none;
+	display:inline-block;
+	border-radius:5px;
+	background-clip:padding-box;
+	cursor:pointer;
+}
+
+.button:hover {
+	background-color:#009afe;
+	color:#befafc;
+}
